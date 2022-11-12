@@ -1,0 +1,32 @@
+[[1m[38;2;99;143;79m69 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.74.2.
+[[1m[38;2;99;143;79m586 ms[39m[22m] @devcontainers/cli 0.23.2. Node.js v14.20.1. linux 5.4.0-1094-azure x64.
+[[1m[38;2;99;143;79m11132 ms[39m[22m] Start: Run: docker buildx build --load --build-arg _DEV_CONTAINERS_BASE_IMAGE=mcr.microsoft.com/devcontainers/universal:[1m[38;2;86;156;214m2[39m[22m --target dev_containers_target_stage -t vsc-workspace-3d43b723c7719b481a48e54c058f8503-features -f /tmp/devcontainercli-root/container-features/0.23.2-1668228530024/Dockerfile.extended /var/lib/docker/codespacemount/.persistedshare/empty-folder
+#1 [internal] load .dockerignore
+#1 ...
+
+#2 [internal] load build definition from Dockerfile.extended
+#2 transferring dockerfile: 5.32kB done
+#2 DONE 0.3s
+
+#1 [internal] load .dockerignore
+#1 transferring context: 2B done
+#1 DONE 0.4s
+
+#3 [internal] load metadata for mcr.microsoft.com/devcontainers/universal:2
+#3 DONE 0.0s
+
+#4 [1/1] FROM mcr.microsoft.com/devcontainers/universal:2
+#4 ...
+
+#5 exporting to image
+#5 exporting layers done
+#5 writing image sha256:ca9c0aef642a13f2ad89bcbebcd2a052c7c189bc028d547d1bd41d1c29fa2176
+#5 writing image sha256:ca9c0aef642a13f2ad89bcbebcd2a052c7c189bc028d547d1bd41d1c29fa2176 0.0s done
+#5 naming to docker.io/library/vsc-workspace-3d43b723c7719b481a48e54c058f8503-features 0.0s done
+#5 DONE 0.5s
+
+#4 [1/1] FROM mcr.microsoft.com/devcontainers/universal:2
+[[1m[38;2;99;143;79m18323 ms[39m[22m] Start: Run: docker run --sig-proxy=false -a STDOUT -a STDERR --mount type=bind,src=/var/lib/docker/codespacemount/workspace,dst=/workspaces --mount type=volume,src=dind-var-lib-docker,dst=/var/lib/docker --mount type=volume,src=minikube-config,dst=/home/vscode/.minikube --mount source=/root/.codespaces/shared,target=/workspaces/.codespaces/shared,type=bind --mount source=/var/lib/docker/codespacemount/.persistedshare,target=/workspaces/.codespaces/.persistedshare,type=bind --mount source=/.codespaces/agent/mount,target=/.codespaces/bin,type=bind --mount source=/mnt/containerTmp,target=/tmp,type=bind --mount type=bind,src=/.codespaces/agent/mount/cache,dst=/vscode -l Type=codespaces -e CODESPACES=true -e ContainerVersion=[1m[38;2;86;156;214m12[39m[22m -u codespace --cap-add=SYS_PTRACE --security-opt seccomp=unconfined --privileged --init --label CodespacesImageType=Default --label ContainerVersion=[1m[38;2;86;156;214m12[39m[22m --hostname codespaces-6419c4 --add-host codespaces-6419c4:[1m[38;2;86;156;214m127.0.0.1[39m[22m --cap-add sys_nice --network host --label IsWarmUpContainer=true --init --privileged --cap-add SYS_PTRACE --security-opt seccomp=unconfined --entrypoint /bin/sh vsc-workspace-3d43b723c7719b481a48e54c058f8503-features -c echo Container started
+Container started
+[[1m[38;2;99;143;79m23177 ms[39m[22m] @devcontainers/cli 0.23.2. Node.js v14.20.1. linux 5.4.0-1094-azure x64.
+[[1m[38;2;99;143;79m23957 ms[39m[22m] @devcontainers/cli 0.23.2. Node.js v14.20.1. linux 5.4.0-1094-azure x64.

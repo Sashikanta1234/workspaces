@@ -1,0 +1,4 @@
+[[1m[38;2;99;143;79m30 ms[39m[22m] @microsoft/vscode-dev-containers-cli 0.74.2.
+[[1m[38;2;99;143;79m692 ms[39m[22m] @devcontainers/cli 0.23.2. Node.js v14.20.1. linux 5.4.0-1094-azure x64.
+[[1m[38;2;99;143;79m1532 ms[39m[22m] @devcontainers/cli 0.23.2. Node.js v14.20.1. linux 5.4.0-1094-azure x64.
+[[1m[38;2;99;143;79m1781 ms[39m[22m] @devcontainers/cli 0.23.2. Node.js v14.20.1. linux 5.4.0-1094-azure x64.
